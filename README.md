@@ -248,7 +248,7 @@ git push origin feat/amazing-feature
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-**Made with ❤️ by JerryJQ and claude
+**Made with ❤️ by JerryJQ
 **
 
 <sub>如果这个项目帮你省下了贴图的时间，欢迎给个 ⭐ Star 支持一下！</sub>
