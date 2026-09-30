@@ -28,7 +28,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" alt="PRs Welcome" />
 </p>
 
-<img src="assets/bg.png" width="800" alt="TDTR PPT Generator Banner" />
+<img src="assets/software.png" width="800" alt="TDTR PPT Generator Banner" />
 
 </div>
 
@@ -96,12 +96,12 @@
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  Python 3.11                                             │
-│  ├── 🖼️ Tkinter      →  桌面 GUI                         │
-│  ├── 📑 python-pptx  →  PPTX 生成                        │
-│  ├── 📈 Matplotlib   →  Vin / FIT / Sensitivity 曲线     │
-│  ├── 🔬 Pillow       →  CCD 图像处理 (tif→png)           │
-│  └── 🔍 Regex Engine →  文件名参数解析                   │
+│  Python 3.11                                             
+│  ├── 🖼️ Tkinter      →  桌面 GUI                         
+│  ├── 📑 python-pptx  →  PPTX 生成                        
+│  ├── 📈 Matplotlib   →  Vin / FIT / Sensitivity 曲线     
+│  ├── 🔬 Pillow       →  CCD 图像处理 (tif→png)           
+│  └── 🔍 Regex Engine →  文件名参数解析                   
 └──────────────────────────────────────────────────────────┘
 ```
 
@@ -248,7 +248,8 @@ git push origin feat/amazing-feature
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-**Made with ❤️ by JerryJQ**
+**Made with ❤️ by JerryJQ and claude
+**
 
 <sub>如果这个项目帮你省下了贴图的时间，欢迎给个 ⭐ Star 支持一下！</sub>
 
