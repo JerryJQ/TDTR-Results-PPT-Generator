@@ -1,0 +1,37 @@
+{
+  "_说明": "材料识别表（可整个删除，删除后用程序内置默认值）。materials: [识别词, 显示名] 成对列出，程序按顺序从样品文件夹名里匹配材料；注意越具体的词要放越前面（例如 sic 必须排在 si 前面，否则先匹配到 si）。在这里新增的材料排在最前优先级最高；用与内置相同的识别词可修改其显示名。colors: 结构图中各材料层的填充色（#RRGGBB），键用识别词小写；新加材料记得同时加颜色，否则用默认灰色。",
+
+  "materials": [
+    ["diamond", "Diamond"],
+    ["si3n4", "Si₃N₄"],
+    ["sio2", "SiO₂"],
+    ["sic", "SiC"],
+    ["gaas", "GaAs"],
+    ["gan", "GaN"],
+    ["al2o3", "Al₂O₃"],
+    ["aln", "AlN"],
+    ["sapphire", "Sapphire"],
+    ["copper", "Cu"],
+    ["cu", "Cu"],
+    ["si", "Si"]
+  ],
+
+  "colors": {
+    "al": "#E8ECEF",
+    "interlayer": "#E0E0E0",
+    "diamond": "#81D4FA",
+    "si3n4": "#FFF59D",
+    "sio2": "#B2EBF2",
+    "sic": "#CE93D8",
+    "gan": "#C5CAE9",
+    "gaas": "#FFCC80",
+    "al2o3": "#D1C4E9",
+    "aln": "#D7CCC8",
+    "sapphire": "#D1C4E9",
+    "cu": "#FFAB91",
+    "copper": "#FFAB91",
+    "si": "#A5D6A7",
+    "si substrate": "#A5D6A7",
+    "film": "#CFD8DC"
+  }
+}

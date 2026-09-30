@@ -1,0 +1,18 @@
+{
+  "_说明": "显示样式（可整个删除，删除后用程序内置默认值）。plot_dpi: 从 CSV 兜底重绘的 Vin/FIT 曲线图分辨率（dpi 越高越清晰、文件越大、生成越慢）。vin_xlim: 图 1 Vin 曲线横轴默认显示范围（皮秒 ps），GUI 里可临时改。default_cover_note: 封面备注留空时自动填入的默认英文备注。diagram_geometry: 样品结构图各区域占整图高度的比例（0~1），一般不用动。",
+
+  "plot_dpi": 150,
+
+  "vin_xlim": [-20, 80],
+
+  "default_cover_note": "P.S. A reference Si standard sample was measured by TDTR to verify the accuracy and reliability of the measurement system.",
+
+  "diagram_geometry": {
+    "substrate_h": 0.18,
+    "finite_stack_h": 0.62,
+    "min_vis_h": 0.035,
+    "al_band_h": 0.20,
+    "al_min_h": 0.15,
+    "arrow_headroom": 0.40
+  }
+}

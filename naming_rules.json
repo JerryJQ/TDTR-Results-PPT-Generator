@@ -1,0 +1,13 @@
+{
+  "_说明": "文件名识别规则（可整个删除，删除后用程序内置默认值）。均为正则表达式，改错会导致识别失败——改坏时直接删除本文件即可恢复默认。csv_basename_regex: 主测量 CSV 文件名规则，必须包含命名分组 date(日期6位数字), N(测量编号), sample(样品名), lens(物镜), freq(频率), pump(泵功率数字), probe(探针功率数字)，以及可选分组 pumpR, probeR(光斑半径)。ccd_folder_regex: CCD 照片文件夹规则，必须包含命名分组 N。lens_name_regex: 物镜文件夹名规则（匹配 5x/20x 等，忽略大小写）。reference_keywords: 文件夹名含其中任一关键词即判为参考(Si标样)样品（含 diamond 的除外）。image_extensions: 可作为 CCD 照片的扩展名（tif/tiff 会自动转成 png）。",
+
+  "csv_basename_regex": "^(?P<date>\\d{6})-#?(?P<N>\\d+)-(?P<sample>.+?)-(?P<lens>[^-]+?)-(?P<freq>[\\d.p]+MHz)-(?P<pump>\\d+)mW-(?P<probe>\\d+)mW(?:-(?P<pumpR>[\\d.]+)-(?P<probeR>[\\d.]+))?$",
+
+  "ccd_folder_regex": "^#(?P<N>\\d+)[-_].*$",
+
+  "lens_name_regex": "^\\d+\\s*[x×]$",
+
+  "reference_keywords": ["reference", "si standard", "si ref", "si sample"],
+
+  "image_extensions": ["jpg", "png", "tif", "tiff"]
+}

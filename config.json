@@ -1,0 +1,17 @@
+{
+  "last_root_dir": "D:/Desktop/Data_V3.0",
+  "last_output_path": "D:\\Desktop\\TDTR Test Results.pptx",
+  "cover_title": "TDTR Test Results",
+  "cover_note": "P.S. A reference Si standard sample was measured by TDTR to verify the accuracy and reliability of the measurement system.",
+  "include_sensitivity": true,
+  "default_layers": {
+    "Al": 80,
+    "Diamond": null,
+    "Si3N4": 600,
+    "Si substrate": "infinite"
+  },
+  "vin_xlim": [
+    -20.0,
+    80.0
+  ]
+}
